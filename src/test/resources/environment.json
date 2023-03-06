@@ -1,0 +1,8 @@
+{
+  "qa": {
+    "baseUrl": "http://api-test.consumer.Ritul.com"
+  },
+  "prod": {
+    "baseUrl": "http://api.Ritul.in"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "ad-id": "fa94cd1a-5dbf-47ee-b665-c1b7468b2f4f",
+    "version-name": "6.0.2",
+    "region-code": "UP",
+    "client-ts": "1677159663665",
+    "which-app": "com.radio.Ritul",
+    "is-headset": "false",
+    "device-create-time": "1677159452",
+    "locale": "US",
+    "device-id": "447037961",
+    "platform": "android",
+    "user-tg": "google-play",
+    "content-ln": "en",
+    "App-Name": "pocket_fm",
+    "auth-token": "%s",
+    "Content-Type": "application/json;charset=utf-8",
+    "screen-density": "1080px",
+    "platform-version": "31",
+    "app-client": "consumer-android",
+    "Accept": "application/json",
+    "app-version": "659",
+    "ip-address": "10.0.2.16",
+    "is-fg": "true",
+    "Host": "api.Ritul.in",
+    "User-Agent": "okhttp/4.10.0"
+  }
+}

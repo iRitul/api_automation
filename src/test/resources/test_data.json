@@ -1,0 +1,28 @@
+{
+  "qa": {
+    "name": "Test1",
+    "mobileNumber": "+9199999999999",
+    "country_code": "+91",
+    "channel": "",
+    "for_phone_update": "false",
+    "otp": "123456",
+    "wrongOTP": "000000",
+    "gender": "male",
+    "age": "13",
+    "email": "testaccount@gmail.com",
+    "password": "test@123"
+  },
+  "prod": {
+    "name": "Test1",
+    "mobileNumber": "+919999999999",
+    "country_code": "+91",
+    "channel": "",
+    "for_phone_update": "false",
+    "otp": "123456",
+    "wrongOTP": "000000",
+    "gender": "male",
+    "age": "13",
+    "email": "testaccount@gmail.com",
+    "password": "test@123"
+  }
+}
