@@ -1,11 +1,11 @@
 package com.api.apiservices;
 
-import Utilities.JsonUtil;
+import utilities.JsonUtil;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import java.util.Map;
-import static Utilities.DataUtil.getEnvironmentData;
+import static utilities.DataUtil.getEnvironmentData;
 import static io.restassured.RestAssured.given;
 
 public class GetAuthenticationTokenService {

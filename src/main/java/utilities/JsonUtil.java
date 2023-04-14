@@ -1,6 +1,6 @@
-package Utilities;
+package utilities;
 
-import Exceptions.TestExecutionException;
+import exceptions.TestExecutionException;
 import com.google.gson.*;
 import java.io.*;
 import java.nio.file.Files;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import static Utilities.StringUtil.interpolate;
+import static utilities.StringUtil.interpolate;
 import static com.google.gson.FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES;
 import static com.google.gson.ToNumberPolicy.LONG_OR_DOUBLE;
 import static java.text.MessageFormat.format;

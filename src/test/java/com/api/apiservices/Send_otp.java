@@ -1,7 +1,7 @@
 package com.api.apiservices;
 
 import Base.BaseSetup;
-import Utilities.JsonUtil;
+import utilities.JsonUtil;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
 import io.restassured.path.json.JsonPath;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import org.testng.log4testng.Logger;
 import java.util.HashMap;
 import java.util.Map;
-import static Utilities.DataUtil.getTestData;
+import static utilities.DataUtil.getTestData;
 import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 

@@ -1,4 +1,4 @@
-package Utilities;
+package utilities;
 
 import org.apache.commons.text.StringSubstitutor;
 import java.util.Map;

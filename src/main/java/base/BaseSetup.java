@@ -1,6 +1,8 @@
 package Base;
 
-import Utilities.TestListener;
+import base.context.TestExecutionContext;
+import org.testng.annotations.BeforeMethod;
+import utilities.TestListener;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -12,12 +14,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 import org.testng.log4testng.Logger;
-import static Utilities.DataUtil.*;
+import static utilities.DataUtil.*;
 import static org.hamcrest.Matchers.lessThan;
 
 public class BaseSetup extends TestListener {
     private static final Logger LOG = Logger.getLogger(BaseSetup.class);
     public static String environment;
+
+    public TestExecutionContext context;
 
     @BeforeSuite
     @Parameters({"environment"})
@@ -42,4 +46,8 @@ public class BaseSetup extends TestListener {
 
     }
 
+    @BeforeMethod
+    public void initializeContext() {
+        context = new TestExecutionContext();
+    }
 }
