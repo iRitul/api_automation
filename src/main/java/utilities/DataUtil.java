@@ -1,7 +1,7 @@
-package Utilities;
+package utilities;
 
 import java.util.Map;
-import static Utilities.JsonUtil.loadJsonFile;
+import static utilities.JsonUtil.loadJsonFile;
 
 public class DataUtil {
 
