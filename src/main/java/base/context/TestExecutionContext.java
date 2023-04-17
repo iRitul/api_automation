@@ -1,4 +1,3 @@
-/* (C) Games24x7 */
 package base.context;
 
 import java.util.HashMap;
